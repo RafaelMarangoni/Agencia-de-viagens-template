@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0; 
+     
+ }
+
+ header{
+    height: 2vh;
+     z-index: 2;  
+}
+ li{
+     margin: 15px;
+ }
+ 
+ .banner2{
+     background-image: url(imagens/fundoProvisorio.jpg);
+     background-repeat: no-repeat;
+     height: 50vh;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }.banner2 h2{
+     position: relative;
+     /* top: 180px; */
+     display: flex;
+     color: white;
+     font-size: 50px;
+     align-items: center;
+     height: 25vw;
+     justify-content: center;
+ }
+ 
+ 
+ .corpo{
+     
+     display: flex;
+     margin-top: 2vw;
+ }
+ .video{
+    height: 28vw;
+ }
+ .artigo{
+    margin: 2.5%
+ }
+ 
+ form{
+     position: center;
+ }
+ body{
+     margin:0px;
+ }
+ 
+ *{
+     margin:0;
+     padding: 0;
+     font-family: arial; 
+     font-size: 18px; 
+ 
+  }
+
+ 
+ header {
+     display: flex;
+     width: 100vw;
+     box-shadow: -4px -2px 11px 3px black;
+     background-color: white;
+     height: 3vw;
+     position: fixed;
+     z-index: 1212121212;
+ }
+ 
+ header img{
+     width: 60px;
+     height: 100%;
+ }
+
+ header .container{
+    display: flex;
+    width: 50%;
+    align-items: center;
+ }
+ nav{
+    display: flex;
+    justify-content: flex-end;
+    JUSTIFY-CONTENT: space-evenly;
+    /* width: 50%; */
+    height: 100%;
+    align-items: center;
+    /* text-decoration: none;  */
+ }
+ header .navegacao{
+    justify-content: unset;
+    /* height: 50%;
+    margin-top: 0;  */
+    width: 50%;
+    position: relative;
+    align-items: center;
+ }
+.end{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: #e2e3e4;
+    align-items: center;
+    border-top: #dcdcdcdc solid 1px;
+}
+.end p {
+    display: flex;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+ nav a {
+     text-decoration: none;   
+     color: black; 
+ }
+ .rodape{
+        
+    font-size: 40px;
+    background-color:  rgb(134, 100, 167);
+    text-align:center;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+  }
+ header .navegacao .toggle{
+     display: none;
+ 
+ }
+ .drop{
+    display: none !important; 
+}
+.tagle{
+    text-decoration: none;
+    color: white;
+
+}
+li{
+    margin: 14%; 
+    list-style: none; 
+}
+
+ .caixa{
+    display: flex;
+    background-color: rgb(0,0,0,0.8);
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    justify-content: center;
+    height: 20vh;
+    /* list-style: none; */
+}
+
+
+ @media screen and (max-width: 540px) {
+     header .navegacao .toggle{
+         display: block;
+         font-size: 1em; 
+     }
+         header .navegacao div  {
+              display:none;     
+ }    
+ 
+ .artigo{
+     display:flex;
+     align-items: flex-end;
+     position: relative;
+     margin: 0;
+     height: 148vw;
+ }
+     #banner {
+         
+         height: 100vw;
+ 
+     }
+     body{
+         display: flex;
+         width: 132%;
+         flex-direction: column;
+         flex-wrap: wrap;
+     }
+     article {
+        display:flex; 
+        width: 100%; 
+        flex-direction: column; 
+        flex-wrap: wrap; 
+     }
+     .corpo{
+         display:flex;
+         flex-direction: column;
+         height: 100vh;
+     }
+     .btn {
+        display : flex;
+        justify-content: right;
+        background-color: white;
+ } 
+       header {
+            height: 5vh;
+            width: 100%;
+        }
+        .banner2   h2{
+            display: flex;
+            align-items: center;
+            height: 50vh; 
+        }
+        .caixa{
+            width: 133%;
+            z-index: 5;
+            display: flex;
+            align-items: center;
+        }
+}
+ @Media (max-width: 320px){
+    header .container .navegacao{
+            width: 100vw;
+
+    }
+ }
